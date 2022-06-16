@@ -4,20 +4,25 @@
   "description": "Scraping the osrs wiki and storing the results",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.26.1",
+    "core-util-is": "^1.0.3",
     "graceful-fs": "^4.2.10",
     "infobox-parser": "^3.6.2",
-    "jsdom": "^19.0.0"
+    "jsdom": "^19.0.0",
+    "ts-node": "^10.8.1"
   },
   "devDependencies": {
     "@types/graceful-fs": "^4.1.5",
     "@types/infobox-parser": "^3.3.1",
+    "@types/jest": "^28.1.1",
     "@types/jsdom": "^16.2.14",
-    "@types/node": "^17.0.25"
+    "@types/node": "^17.0.45",
+    "import-local": "^3.1.0",
+    "jest": "^28.1.1"
   }
 }
