@@ -25,8 +25,8 @@ import {
   extractAllMonsters,
 } from "./scripts/extractors/extract-monsters";
 
-// dumpWikiPageList();
-// dumpAllWikiPages();
+dumpWikiPageList();
+dumpAllWikiPages();
 // dumpRedirectList();
 // TestGeItems();
 // dumpGEItemPageList();
