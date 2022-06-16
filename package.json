@@ -4,8 +4,8 @@
   "description": "Scraping the osrs wiki and storing the results",
   "main": "main.ts",
   "scripts": {
-    "test": "jest",
-    "start": "ts-node main.ts"
+    "test": "jest > app.log",
+    "start": "ts-node main.ts > app.log"
   },
   "author": "",
   "license": "ISC",

@@ -28,11 +28,11 @@ export async function dumpAllWikiPages(): Promise<void> {
   const now = Date.now() / 1000;
   for (let i = 0; i < WikiPageList.length; i++) {
     if (i % 10 === 0) {
-      console.info(
-        `Request ${i} / ${WikiPageList.length} - ${Math.round(
-          Math.round(Date.now() / 1000 - now)
-        )} s elapsed`
-      );
+      // console.info(
+      //   `Request ${i} / ${WikiPageList.length} - ${Math.round(
+      //     Math.round(Date.now() / 1000 - now)
+      //   )} s elapsed`
+      // );
     }
 
     const currentPage = WikiPageList[i] as WikiPageSlim;
